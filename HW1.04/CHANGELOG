@@ -1,0 +1,7 @@
+03/09: Started the assignment, got to the point where it can take user input for how many npcs and it
+also places down the npcs. Also managed to get the pacers and random walkers moving. I need to stop
+procrastinating.
+
+03/10: Got back to work. Started off by re-doing my npc struct and instead made it a character struct
+to include the player character. Then I managed to get the priority queue to work to move the
+characters. I am able to move all the characters. I also added color.

@@ -1,0 +1,28 @@
+This is my partial solution to HW 1.04. My code can take in user input if it is inputed and creates
+an array of character structs. These are then initialized properly with cost and position and so on.
+Then they are inserted into the priority queue and there is a continuous while loop running that
+keeps removing the smallest cost in the heap, then it re adds it with the updated cost. With this
+the characters are able to move around. The player character is always stationary. I could not find
+anywhere on in the pdf on what to do when the rival and hiker reach the player so I have them stop
+moving, the other npcs keep moving though.
+
+Note: In my code I made it so the characters can not overlap each other and this works for the most
+part. Sometimes, very rarely, they will, but they will usually revert back to not overlapping. I
+think this happens because they moved at the same time to the same square and my checks are very
+rudimentary.
+
+Note 2: I have also noticed that sometimes the hikers and rivals will take a weird path that does not
+seem like the fastest but other times they will. For example: sometimes the hikers will ride just
+above a path while the rivals in the same map will use the paths. Also sometimes it will seem like
+they are going away from the character. They both use identical code, just with the type of distance
+map to look at being different so I am not sure what is happening. Maybe I am just misusing the
+distance maps or maybe it is the optimal path after all.
+
+Note 3: Very rarely, when character C encounters a stationary character, it will stop moving. This is
+because in my code when there is another character in the way of C's path it will stop and wait for C
+to move.
+
+To run the code:
+	First type make
+	Then you can either do ./poke327 which will do 10 trainers or
+	you can do ./poke327 --numtrainers # where the # sign is however many trainers you want.
