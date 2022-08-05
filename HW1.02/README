@@ -1,0 +1,9 @@
+This is my solution to the world creation problem. First I took my code for making the map and copied it into this file.
+To start I went to understand how the array of pointers worked with the map struct and I also went and changed somethings
+in my orignial code like making the map in a struct rather than in main. When going in a direction I have it so the x and y
+is changed depending on what movement was being performed. My approach to checking for neighbors happens when I am making
+the exits for that map. It first checks each of its 4 neighbors to see if that is null and if not it takes its exit. Then
+after that I checked if the current position of the map was at an edge of the world, if it was I replaced the exit with a
+rock ('%'). I also made a method to do the distance math for the buildings and it gives back a percent, then in the
+method that generates the math a random number is used, and if it is below that percent it prints the building. Then at the
+end of my main method any memory that was used up is freed.

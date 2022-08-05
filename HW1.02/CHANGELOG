@@ -1,0 +1,3 @@
+02/09: Started work on the project. Worked step by step completing the easy stuff like getting the users choice first and
+moving on tothe harder parts after. Near the end of my work I had struggles with the program just terminating when going
+out of bounds but I found the fix. Once that was complete I just free'd the memory and finished the code.
