@@ -1,0 +1,15 @@
+This is my partial solution for the 1.05. I implemented all the character movements and the player
+movement. I also got the poke centers, marts, and battles functioning with just a place holder screen
+for now. For my rival and hiker when the battle is finished I made it so they stop moving, with this
+the player might get stuck if there is mountains all around but I do not see this as a bug. I have
+not implemented trainer list scrolling yet.
+
+Note: I could not figure out how to do world traversal, no matter what I tried it did not work sadly.
+Another thing is that I also had an issue where no matter what key I pressed the code still went,
+even if it wasn't a movement key or something.
+
+To run the code:
+	First type make
+	Then you can either do ./poke327 which will do 10 trainers or
+	you can do ./poke327 --numtrainers # where the # sign is however many trainers you want.
+	Player movements are what is described in the assignment spec.

@@ -1,0 +1,6 @@
+03/21: Tried to get a basic understanding of ncurses.
+03/22: Got started with the assignment, completed basic player movement.
+03/23: Implemented the trainer list and poke-center and mart screens. I also made it so the player
+can't walk into the edges or boulders or trees.
+03/24: Implemented the battle functionality and placeholder screen for battles, tried to add map
+traversal but couldn't.
