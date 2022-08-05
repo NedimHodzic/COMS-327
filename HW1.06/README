@@ -1,0 +1,8 @@
+This is my solution for 1.06, it checks the pyrite data base first then it checks the home one and if
+it does not find the files in either it prints a message saying that it could not find them. I tested
+in pyrite and it worked on my computer.
+
+To run the code:
+	First type make.
+	Then ./poke327 file where file is which csv you want to check. The names should correlate
+	with what they are on the assignment spec.
