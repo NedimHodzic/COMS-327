@@ -1,0 +1,17 @@
+02/15: Started work on HW 1.03. First I made a struct for my player character then a function that places them onto a path.
+Once I did that I began work on the shortest path grid. I started off by just printing out the weights of each of types of
+terrain.
+
+02/22: Scrapped my original idea because I could not figure out how to use Sheaffer's heap with my code. Instead downloaded
+his 1.02 code to work from there. I started off by making a person_pc enum for my player character. Then using 2 global
+variables I got the position for my player character. I then copy and pasted his dijkstras algorithm for the paths to use
+for my distance map. I started off by setting the player characters position to weight 0 and then I went on to make more
+if statements for the diagonal direction. After this I made a weights function to use in the comparison of the current cost
+to the new cost of the 2 sections. When I went to test I kept getting segment fault errors and after testing lots of things
+I could not fix the issue so I decided to call it a day.
+
+02/23: Started work again. I decided to change up my weight function and rather than having it be separate from the map, I
+made the weights part of the map, similar to how Sheaffer made the heights for the paths in the map struct. After this I
+made to functions, one for the rival weights and the other for the hiker weights. I then implemented them into the if
+statements in my dijkstras and it worked mostly. I had to change the INT_MAX to 999999 because it was printing negative
+numbers.

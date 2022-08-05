@@ -1,0 +1,9 @@
+This is my solution to printing out all the path finding weights. I started off with using my own code but could not get it
+to work so I switched over to using Sheaffer's code for 1.02. I then made my dijkstras method and weight methods to print
+out the 2 maps for each NPC. Since this is Sheaffer's 1.02 I had to change a few things around, like the position of the
+print map in the main method, and I also commented out the do while loop because I only wanted to print the weight maps
+one time. First I print the normal map, then the hikers distance, then the rivals.
+
+Note: I am not sure If my small screen made the map print different but in my testing, there was one time where it looked
+like the clearing weights did not print properly. It has only happened once so I probably mis saw it but I figured I would
+say something in case.
