@@ -1,0 +1,10 @@
+This is my solution to HW 1.07. I implemented all the proper functionality like printing the moves
+and stats. I did a similar process to last HW where it looks directly in the Pyrite database. I
+tested it on Pyrite and it worked on my device. Instead of using 19 like he said, I used 18 and 20
+because I am pretty sure using both contains every Pokemon. I did extensive testing and had no issues
+once I included testing but there may have been something that I missed. Using both also lets every
+Pokemon have moves instead of some having no moves, unless there are Pokemon not part of 18 or 20.
+
+To run the code:
+	First type make.
+	Then ./poke327, it should run the game normally. All parsing is done automatically.
