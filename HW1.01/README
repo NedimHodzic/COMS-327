@@ -1,0 +1,16 @@
+This is my solution to filling up the map for my Pokemon game. I made separate methods for each of the functions like
+filling in the grass regions or making the paths. At first I tried to make it so the pokecenters and marts were 2x2 but
+I was struggling with formatting it correctly so it didnt overlap the paths so I stuck with 1. I plan to go back in the
+future and possible make them 2x2.
+
+Another thing I plan to do in the future is make the paths vary more. I am happy with how they are now for a beginning
+point and I am glad that I was able to make it so they weren't straight. Once I get more comfortable with C I plan to
+make them move with the biomes maybe.
+
+Guide for the chracters:
+    #: These are for the paths and I made them a bright white.
+    .: This if for the clearings and I made them yellow.
+    ,: This if for the tall grass areas and I made them green.
+    ": This id for trees and I made them a more vibrant green.
+    C,M: These are for the PokeCenter and PokeMart, I made them red and blue.
+    %: This is for rocks and the border, I made them white..
