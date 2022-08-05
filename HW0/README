@@ -1,0 +1,4 @@
+My code correctly displays all 1728 possible Knight's Tours given a 5x5 grid. To make sure it did I tested that the
+example given in the pdf appeared and it did. In my code it cycles through an array with 0's in every location,
+filling the current location with the order that it has been check. Once it has gone through every location on the board,
+it then cycles through the now filled array printing out the locations in the order they were traversed.
