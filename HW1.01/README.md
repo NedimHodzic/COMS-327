@@ -1,3 +1,3 @@
 # *Terrain Generation*
 
-Generating terrain for the Pokemon world
+Generating terrain for a map in the Pokemon game
