@@ -1,0 +1,12 @@
+This is my HW 1.08 solution. All the proper functionality is implemented like battles and using the
+bag. The trainer starts with 10 of each item so if they run out its game over. To access the bag
+outside of battle use 'B'.
+
+Note: Due to there being no PP or struggle, sometimes you can get stuck in an infinite battle if both
+your Pokemon and the enemy trainers Pokemon have no damaging moves. To avoid this, make sure that
+when picking a started you choose one with an attacking move, or to catch a wild Pokemon that has one
+before battling.
+
+To run the code:
+	First type make.
+	Then ./poke327, it should run the game normally. All parsing is done automatically.
