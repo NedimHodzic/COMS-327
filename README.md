@@ -1,4 +1,4 @@
 # COMS-327
-This is a repository containing homework assignments from COM S 327 at Iowa State University
+This repository contains homework assignments from COM S 327: Advanced Programming Techniques at Iowa State University, taken in my Sophomore year.
 
-PDF's for each assignment are included
+PDFs for each assignment are included.
